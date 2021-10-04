@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Quotes Generator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+    body{
+      background: linear-gradient(to right, #8e2de2, #4a00e0);
+    }
+
+    #outer-box{
+      padding:10% 25% 10%;
+      
+    }
+    .btn {
+        background: #d9344f;
+        background-image: -webkit-linear-gradient(top, #d9344f, #b82b5a);
+        background-image: -moz-linear-gradient(top, #d9344f, #b82b5a);
+        background-image: -ms-linear-gradient(top, #d9344f, #b82b5a);
+        background-image: -o-linear-gradient(top, #d9344f, #b82b5a);
+        background-image: linear-gradient(to bottom, #d9344f, #b82b5a);
+        -webkit-border-radius: 60;
+        -moz-border-radius: 60;
+        border-radius: 60px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        border: solid #bdb51c 4px;
+        text-decoration: none;
+      }
+      
+      .btn:hover {
+        background: #308708;
+        text-decoration: none;
+      }
+
+      #box{
+        background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+        text-align: center;
+        
+      }
+
+      #quote{
+        padding:25px 70px 25px;
+      }
+    </style>
+</head>
+<body>
+
+    <div id="outer-box">
+        <div id="box"><br><br>
+
+
+           <i></i><button class="btn" id="g" type="button">Generate quote</button></i>
+
+
+
+           <i><h2 id="quote"><i>“Sing like no one’s listening, love like you’ve never been hurt, dance like nobody’s watching, and live like it’s heaven on earth.”</i></h2></i>
+           <i><h3 id="author" style="padding:25px 70px 35px;text-align:right;">~Harish</h3></i>
+        
+        
+        
+        </div>
+    </div>
+
+
+    <script src="js.js"></script>
+</body>
+</html>
